@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ItemBehaviour : StateMachineBehaviour
 {
+
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     //override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     //{
@@ -19,8 +20,8 @@ public class ItemBehaviour : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        Debug.Log("ok");
         animator.SetBool("canMoveDown", false);
+        animator.SetBool("canClear", true);
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

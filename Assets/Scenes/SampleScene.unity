@@ -2441,6 +2441,13 @@ MonoBehaviour:
   - {fileID: 1270214937}
   - {fileID: 1382233856}
   - {fileID: 1935667414}
+  arrowes:
+  - {fileID: 1974346268}
+  - {fileID: 1942768549}
+  - {fileID: 842054522}
+  - {fileID: 1562315751}
+  - {fileID: 562684543}
+  - {fileID: 1080189041}
 --- !u!1 &1935667413
 GameObject:
   m_ObjectHideFlags: 0
